@@ -24,7 +24,9 @@ public class App
 
       // asos_site.asos_signUp().goToHomePage().clickSignInButton().goToSignInPage();
 
-        asos_site.asos_signUp().goToHomePage();
+        asos_site.asos_homepage().blazerPage().selectSizeSix().addToBasket().viewBasket().clickCheckoutButton(); 
+
+       // asos_site.asos_homepage().instagramButton();
 
 
 
